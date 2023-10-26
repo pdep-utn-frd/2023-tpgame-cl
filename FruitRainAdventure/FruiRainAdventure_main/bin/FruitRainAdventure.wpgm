@@ -1,0 +1,10 @@
+import wollok.game.*
+
+import interface.*
+import gameController.*
+
+program game {
+	screenUI.iniciar()
+	gameController.startMenu()
+	game.start()
+}
